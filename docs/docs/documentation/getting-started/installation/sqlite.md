@@ -14,7 +14,7 @@ services:
     image: ghcr.io/mealie-recipes/mealie:nightly
     container_name: mealie-api
     ports:
-        "9925:9000" # (1)
+      - "9925:9000" # (1)
     deploy:
       resources:
         limits:
